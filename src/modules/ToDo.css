@@ -1,0 +1,58 @@
+.todoApp {
+    display: flex;
+    flex-direction: column;
+}
+
+.appTitle {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: monaco;
+    color: fuchsia;
+}
+
+.taskItem {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 50%;
+    align-self: center;
+}
+
+.taskItemCheckbox {
+    margin: 10px 10px 10px 10px;
+}
+
+.taskDeleteContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.taskItemDelete {
+    height: 22px;
+    width: 80px;
+    border: 0px;
+    margin: 5px 5px 5px 5px;
+    background-color: red;
+    color: #fff;
+    border-radius: 8px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.newTaskDiv {
+    width: 50%;
+    align-self: center;
+}
+
+.newTaskInp {
+    border: 1px solid;
+    margin: 5px;
+    line-height: 30px;
+    width: 90%;
+    border: 0px;
+    border-bottom: 1px solid grey;
+}
